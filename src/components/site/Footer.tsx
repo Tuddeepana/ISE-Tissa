@@ -1,4 +1,5 @@
-import { GraduationCap, MapPin, Phone, MessageCircle, Facebook, Instagram, Youtube } from "lucide-react";
+import { MapPin, Phone, MessageCircle, Facebook, Instagram, Youtube } from "lucide-react";
+import iselogo from "@/assets/iselogo.png";
 
 export function Footer() {
   return (
@@ -6,14 +7,8 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-14">
         <div className="grid gap-10 md:grid-cols-4">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-3">
-              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-white/15">
-                <GraduationCap className="h-5 w-5" />
-              </div>
-              <div>
-                <div className="text-base font-bold">ISE SE අධ්‍යාපන ආයතනය</div>
-                <div className="text-xs text-white/70">තිස්සමහාරාම, ශ්‍රී ලංකා</div>
-              </div>
+            <div className="flex items-center gap-3 mb-4">
+              <img src={iselogo} alt="ISE Logo" className="h-12 w-auto rounded-lg bg-white p-1" />
             </div>
             <p className="mt-5 max-w-md text-sm leading-relaxed text-white/80">
               දරුවන්ගේ අධ්‍යාපනික හැකියාවන් වර්ධනය කර සාර්ථක අනාගතයක් සඳහා මඟ පෙන්වන විශ්වාසදායී

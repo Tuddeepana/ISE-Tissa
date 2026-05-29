@@ -1,12 +1,24 @@
 import { GraduationCap } from "lucide-react";
 
 const teachers = [
-  { name: "ආචාර්ය සමන් කුමාර", qualification: "BSc (Hons), Dip. in Education", subject: "සිංහල භාෂාව", initials: "සක" },
-  { name: "නිමල් පෙරේරා මහතා", qualification: "BSc Mathematics", subject: "ගණිතය", initials: "නප" },
-  { name: "කුමාරි සිල්වා මෙය", qualification: "BA English, PGDE", subject: "ඉංග්‍රීසි", initials: "කස" },
-  { name: "අනුර ජයසිංහ මහතා", qualification: "BSc Physics", subject: "භෞතික විද්‍යාව", initials: "අජ" },
-  { name: "චමරි රත්නායක මෙය", qualification: "BSc Chemistry", subject: "රසායන විද්‍යාව", initials: "චර" },
-  { name: "රවී ද සිල්වා මහතා", qualification: "BA, Dip. in Teaching", subject: "ඉතිහාසය", initials: "රද" },
+  { 
+    name: "ඉසුරු රාජකරුණා", 
+    qualification: "B.A Uni of Ruhuna", 
+    subject: "සිංහල", 
+    initials: "ඉරා" 
+  },
+  { 
+    name: "නිපුණ රත්නායක", 
+    qualification: "B.B.A (Hons) SEUSL (UG)", 
+    subject: "ව්‍යාපාර හා ගිණුම්කරණ අධ්‍යනය", 
+    initials: "නිර" 
+  },
+  { 
+    name: "සෙනාස් අබේසිංහ", 
+    qualification: "B.P.A (Special) Music Uni of the Visual nad Performing Arts", 
+    subject: "සංගීතය", 
+    initials: "සෙඅ" 
+  },
 ];
 
 const palette = [
