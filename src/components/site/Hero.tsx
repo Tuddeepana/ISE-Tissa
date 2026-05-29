@@ -1,12 +1,29 @@
 import { MessageCircle, Phone, BookOpen, Sparkles, Award } from "lucide-react";
+import heroBg from "@/assets/hero-students.jpg";
 
 export function Hero() {
   return (
-    <section
-      id="home"
-      className="relative overflow-hidden"
-      style={{ background: "var(--gradient-hero)" }}
-    >
+    <section id="home" className="relative overflow-hidden">
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img
+          src={heroBg}
+          alt=""
+          aria-hidden="true"
+          width={1920}
+          height={1280}
+          className="h-full w-full object-cover"
+          style={{ filter: "blur(2px)" }}
+        />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(135deg, oklch(0.55 0.22 287 / 0.85) 0%, oklch(0.6 0.2 295 / 0.75) 50%, oklch(1 0 0 / 0.65) 100%)",
+          }}
+        />
+      </div>
+
       {/* Floating decorations */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         <div className="animate-float absolute -left-10 top-20 hidden h-20 w-20 items-center justify-center rounded-2xl bg-white/70 shadow-[var(--shadow-card)] md:flex">
