@@ -19,7 +19,7 @@ export function Hero() {
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(135deg, oklch(0.55 0.22 287 / 0.85) 0%, oklch(0.6 0.2 295 / 0.75) 50%, oklch(1 0 0 / 0.65) 100%)",
+              "linear-gradient(135deg, oklch(0.4 0.22 287 / 0.88) 0%, oklch(0.5 0.22 290 / 0.82) 50%, oklch(0.55 0.22 287 / 0.78) 100%)",
           }}
         />
       </div>
@@ -51,16 +51,14 @@ export function Hero() {
           තිස්සමහාරාම • ශ්‍රී ලංකා
         </div>
         <h1
-          className="animate-fade-up mt-6 text-4xl font-extrabold leading-[1.15] tracking-tight text-foreground md:text-6xl"
+          className="animate-fade-up mt-6 text-4xl font-extrabold leading-[1.15] tracking-tight text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.35)] md:text-6xl"
           style={{ animationDelay: "0.1s" }}
         >
           ඔබගේ දරුවාගේ අනාගතය{" "}
-          <span className="bg-[image:var(--gradient-primary)] bg-clip-text text-transparent">
-            අප සමඟ ගොඩනඟන්න
-          </span>
+          <span className="text-white">අප සමඟ ගොඩනඟන්න</span>
         </h1>
         <p
-          className="animate-fade-up mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg"
+          className="animate-fade-up mx-auto mt-6 max-w-2xl text-base leading-relaxed text-white/95 drop-shadow-[0_1px_8px_rgba(0,0,0,0.3)] md:text-lg"
           style={{ animationDelay: "0.2s" }}
         >
           ISE SE අධ්‍යාපන ආයතනය තිස්සමහාරාම – ගුණාත්මක අධ්‍යාපනයෙන් සාර්ථකත්වයට මඟ පෙන්වීම.
